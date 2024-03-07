@@ -1,0 +1,21 @@
+.todos{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:40;
+
+}
+h4{
+
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin: 15px;
+}
+p{
+    text-align: center;
+    margin-top: 15px;
+    display: none;
+}
+

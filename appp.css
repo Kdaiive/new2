@@ -1,0 +1,48 @@
+.products{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:40;
+
+}
+h4{
+
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin: 15px;
+}
+p{
+    text-align: center;
+    margin-top: 15px;
+    display: none;
+}
+.products .product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    margin: 20px;
+border-radius: 
+4px;
+}
+.product img{
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    border-radius: 4px;
+
+}
+
+.products button{
+height: 40px;
+width: 85%;
+cursor: pointer;
+margin-bottom: 17px;
+text-transform: uppercase;
+color: white;
+background-color: purple;
+border: none;
+border-radius: 4px;
+}
